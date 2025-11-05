@@ -1,7 +1,5 @@
 # 👨‍🔬🧬 DeBruijn Genome Assembly 👨‍🔬🧬
 
-**A complete R implementation of De Bruijn graph genome assembly** (Continuing to learn how SPAdes and Velvet reconstruct DNA from overlapping fragments.)
-
 A complete implementation of De Bruijn graph-based genome assembly in R, demonstrating how real sequencing tools (SPAdes, Velvet, ABySS) reconstruct DNA from overlapping fragments.
 ## Overview
 
