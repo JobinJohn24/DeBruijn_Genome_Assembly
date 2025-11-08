@@ -1,7 +1,8 @@
 # 👨‍🔬🧬 DeBruijn Genome Assembly 👨‍🔬🧬
 
 A complete implementation of De Bruijn graph-based genome assembly in R, demonstrating how real sequencing tools (SPAdes, Velvet, ABySS) reconstruct DNA from overlapping fragments.
-## Overview
+
+## 📋Overview
 
 This project implements the complete De Bruijn graph assembly pipeline:
 
@@ -11,7 +12,7 @@ This project implements the complete De Bruijn graph assembly pipeline:
 4. **Reconstruct the sequence** from the path
 5. **Calculate quality metrics** (identity, contiguity, complexity)
 
-## How It Works
+## 📖 How It Works
 
 ### The Algorithm: 4 Steps
 
@@ -71,7 +72,7 @@ Extract:  AC + (G)  + (T) + (A) + (C)
 Result:   ACGTAC ✓
 ```
 
-### Algorithm 
+### 🧮 Algorithm 
 
 | Operation | Time | Space |
 |-----------|------|-------|
@@ -82,7 +83,7 @@ Result:   ACGTAC ✓
 
 Where: n = sequence length, k = k-mer size, V = nodes, E = edges
 
-## Results
+## 📚Results
 
 ### Toy Data Assembly
 
@@ -122,7 +123,7 @@ Where: n = sequence length, k = k-mer size, V = nodes, E = edges
 - Maintains graph connectivity
 - All Eulerian paths found successfully
 
-## Visualizations
+## 📊 Visualizations
 
 ### De Bruijn Graph Structures
 
